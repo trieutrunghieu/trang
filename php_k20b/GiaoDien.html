@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- một thẻ meta dùng để định nghĩa bộ mã ký tự được sử dụng trong tài liệu, hiển thị các kí tự đa ngôn ngữ utf-3 -->
+	<meta charset="utf-8"> 
+	<!-- Đây là một thẻ meta khác để định nghĩa các thuộc tính xem của trang web. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- để đặt tiêu đề cho trang web -->
+	<title>Làm quen với html</title> 
+</head>
+<!-- phần thân chứa toàn bộ nội dung hiển thị trong trang web -->
+<body> 
+	<!-- cách ghi chú : bôi đen ctr /-->
+	<!-- thẻ <a> dùng để tạo một liên kết -->
+	<!-- thẻ <img> dùng để chèn một hình ảnh vào trang web -->
+
+	<!-- <a href="trang 2.html"><img src="Anh/Anh1.png"></a> -->
+	<!-- table -->
+	<!-- danh sách không có thứ tự
+	<ul>
+		<li>Home</li>
+		<li>Sản phẩm</li>
+		<li>Liên hệ</li>
+	</ul> -->
+	<!-- tạo form -->
+	<form>
+		Tên đăng nhập : 
+		<input type="text" name="" placeholder="điền tên đăng nhập">
+		<!-- xuống dòng -->
+		<br> 
+		Mật khẩu :
+		<input type="password" name="" placeholder="nhập password">
+		<br>
+		<!-- submit lấy dữ liệu gửi lên server -->
+		<input type="submit" name="" value="Đăng nhập">
+		<!-- chỉ xử lí dữ liệu-->
+		<!-- <input type="button" name="" value="Đăng nhập"> -->
+		<input type="reset" name="" value="Nhập lại">
+		<br>
+		Sở thích :
+		<!-- st để nhóm lại -->
+		<!-- checked để chọn mặc định -->
+		<input type="checkbox" name="st" value="">Chơi game
+		<input type="checkbox" name="st" value="">Chơi thể thao
+		<input type="checkbox" name="st" value="" checked>Đi du lịch
+		<br>
+		Giới tính :
+		<input type="radio" name="gt">Nam
+		<input type="radio" name="gt">Nữ
+		<br>
+		Chọn file
+		<input type="file" name="">
+		<br>
+		<!-- danh sách thẻ xún cho ng dung chọn 1 giá trị trong các lựa chọn có sẵn -->
+		<select>
+			<option>Hà Nội</option>
+			<option>Thái Nguyên</option>
+			<option>Bình Định</option>
+		</select>
+		<br>
+		<textarea>
+			<!-- Ghi chú: -->
+		</textarea>
+	</form>
+</body>
+</html>

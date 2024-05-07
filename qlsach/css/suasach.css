@@ -1,0 +1,14 @@
+.container{
+	width: 300px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+h1, .nhomnut{
+	text-align: center;
+}
+.nhomtext{
+	padding: 10px;
+}
+.nhomnut{
+	padding: 10px;
+}

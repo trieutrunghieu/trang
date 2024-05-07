@@ -1,0 +1,37 @@
+.container{
+	width: 700px;
+	margin: 0 auto;
+	border: 1px solid red;
+	font-family: Tahoma;
+	text-align: center;
+}
+.nhan_login{
+	padding: 20px 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+.nhomnut{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.nut_login{
+
+}
+.ddnut{
+	width: 250px;
+	background: red;
+	color: white;
+	padding: 15px 0;
+	border-radius: 5px;
+	font-size: 2-px;
+
+}
+.ddtext{
+	width: 600px;
+	padding: 10px 10px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.ccpadding{
+	padding: 15px;
+}

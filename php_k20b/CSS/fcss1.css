@@ -1,0 +1,86 @@
+body{
+
+}
+#Phandau,
+.anhsp,
+.tensp,
+.giasp,
+.muasp{
+	text-align: center;
+	}
+.pd{
+
+}
+.pnd{
+	display: grid;
+	grid-template-columns: repeat(2,20% 80% 1fr);
+}
+.dong1{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.dong2{
+	display: grid;
+	grid-template-columns:repeat(4, 1fr) ;
+}
+.nm:hover{
+	transform: scale(1.1);
+}
+.nm{
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+.dong1{
+	margin: 20px;
+/*	border: 10px solid black;*/
+
+}
+.anhsp{
+	margin-bottom: 20px;
+}
+.dong2{
+	margin: 20px;
+}
+#Phancuoi{
+	height: 50px;
+	background: #FFCC99;
+	text-align: center;
+	pading: 30px;
+}
+.pnd a {
+	text-decoration: none;
+}
+.pnd li {
+	list-style: none;
+}
+.sp1,
+.sp2,
+.sp3,
+.sp4 {
+	border: 1px solid black;
+	padding: 20px;
+	margin: 10px;
+}
+.pnd li{
+	list-style: none;
+	position: relative;
+	margin: 5px;
+}
+.pnd li ul{
+	display: none;
+	position: absolute;
+	top:0;
+	left: 100%;
+	margin-left: -50px ;
+}
+.pnd li:hover ul{
+	display: block;
+}
+.menu{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.menu a {
+	color: black;
+
+	}
